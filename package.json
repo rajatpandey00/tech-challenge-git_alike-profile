@@ -14,7 +14,7 @@
     "react-dom": "^16.13.1",
     "twit": "^2.2.11",
     "webpack": "^3.1.0",
-    "webpack-dev-server": ">=3.1.11"
+    "webpack-dev-server": "2.5.1"
   },
   "scripts": {
     "mock-server": "nodemon src/server.js --watch",
