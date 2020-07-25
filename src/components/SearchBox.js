@@ -32,7 +32,7 @@ const SearchBox = () => {
                     <button>Submit</button>
                 </form>
             </div>
-            <div>
+            <div style={{textAlign: "center", padding: "10"}}>
                 {!!result && result.map((user, index) => <User {...user} key={index} />)}
             </div>
         </div>

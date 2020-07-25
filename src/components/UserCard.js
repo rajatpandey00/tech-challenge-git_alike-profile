@@ -3,7 +3,7 @@ import { Card, Button } from 'react-bootstrap';
 
 const User = (props) => {
     return (
-        <Card className="" border="primary" style={{ width: '18rem' }}>
+        <Card className="" border="primary">
             <Card.Header>Name - {props.name}</Card.Header>
             <Card.Body>
                 <Card.Title>ID - {props.id}</Card.Title>
